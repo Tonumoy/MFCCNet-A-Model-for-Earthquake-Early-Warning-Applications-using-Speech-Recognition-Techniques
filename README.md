@@ -9,6 +9,18 @@ Earthquakes are one of the most devastating natural phenomenons.Earthquake signa
 Indian Earthquake acceleration data of the past 10 years and magnitudes approximately between 2-8 was collected from PESMOS (Program for Excellence in Strong Motion Studies, IIT Roorkee) and EGMB (Eastern Ghats Mobile Belt) Data of earthquakes with magnitudes ranging between 2-5 Collected at Geology and Geophysics Lab IIT Kharagpur, were also used. 
 Before training the models, proper cleaning of the audio data was done and essential features from the data were then extracted using popular speech processing methodologies of Filter Banks and Mel-Frequency Cepstral Coefficients (MFCCs).
 
+## Model Architectures
+### CNN Model Architecture
+The proposed architecture for the CNN  model has 4 convolutional layers, 1 maxpool layer and 3 dense layers. The first layer of the 4 convolutional layers consists of 16 filters built with 3x3 convolution with 'Relu' as the activation function and 1x1 stride. All the parameters for the second, third and fourth layers remain the same except for the number of filters in each layer multiplies two times with the number of filters in the previous layer. Or in other words, 16 filters in the first layer, 32 filters in the second layer, 64 in the third and 128 in the final layer. 
+![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/16%20Filters%20of%20Layer%201%20in%204X4.png?raw=true)
+![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/CNN%20Diagram.png?raw=true)
+
+The idea behind increasing the number of filters in each layer is to be more specific about the features as the data starts to convolve through each layer. A kernel of 2x2 has been used for the maxpool layer. The three dense layers after the maxpool layer consist of 128, 64 and 2 neurons so as to pool down the features for the final 2 class classification. The first two dense layers use 'Relu' as their activation function whereas the last dense layer  uses 'Softmax' as its activation function as we use categorical cross-entropy for multi-class classification purposes and 'adam' as the optimizer.   
+### LSTM Model Architecture
+The proposed architecture for the LSTM  model has 2 LSTM layers consisting of 128 neurons each. 4 time distributed fully connected layers of 64, 32, 16 and 8 neurons respectively are added after the 2 LSTM layers with 'relu' as their activation function. Lastly a dense layer consisting of 2 neurons is added for the final 2 class classification with 'softmax' as its activation function and 'adam' as the optimizer. 
+![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/LSTM%20Diagram.png?raw=true)
+
+
 ## Results
 The CNN and the LSTM models performed almost similarly for 200Hz audio data set, but significant improvements in the train-test accuracy percentages is observed for 1000Hz data set. For 1000 Hz audio data set the CNN model showed a testing accuracy of 91.102\% for 0.2 second sample window length while the LSTM model showed 93.999\% for the same. This observation can be backed by the fact that LSTMs performs better for sequential or time series data classifications. 
 
