@@ -15,14 +15,14 @@ The CNN and the LSTM models performed almost similarly for 200Hz audio data set,
 The Kappa statistics(values), generally used for comparing an Observed Accuracy with an Expected Accuracy (random chance), was used for validating the model accuracies for both the data sets.
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/Kappa_plots1000&200Fs.png?raw=true)
 
-For both data classes, activations by random 5 out of 16 filters of the first layer of the CNN Model along with their inputs is represented by \figref{Fig 8} and \figref{Fig 9} respectively.
+For both data classes, activations by random 5 out of 16 filters of the first layer of the CNN Model along with their inputs is represented by the following figures.
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/Positive%20Class%20Activations%20with%20corresponding%20Filters.png?raw=true)
 
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/Negative%20Class%20Activations%20with%20corresponding%20Filters.png?raw=true)
 
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/histograms.png?raw=true)
 
-This is one of the very first applications of Machine learning in the field of earthquake detection using MFCC's and Filterbank Coefficients which are generally used in the field of Speech Recognition. An earthquake is basically understood well by three types of waves namely P-wave, S-wave and surface wave. Interaction of these waves with the surrounding medium gives an earthquake its intensity. Any wave is a vibration. Any vibration has some sound associated with it[14]. It might be inaudible to the human ears, but the sound remains. In real time, it is difficult to identify and classify events based on classical approaches like peak ground displacement, peak ground velocity or even the widely recognized algorithm of STA/LTA as they require extensive research to determine basic thresholding parameters so as to trigger an alarm. Many times due to human error or other unavoidable natural factors such as thunder strikes or landslides, the conventional algorithms may end up raising a false alarm (shown in \figref{Fig 11}). 
+This is one of the very first applications of Machine learning in the field of earthquake detection using MFCC's and Filterbank Coefficients which are generally used in the field of Speech Recognition. An earthquake is basically understood well by three types of waves namely P-wave, S-wave and surface wave. Interaction of these waves with the surrounding medium gives an earthquake its intensity. Any wave is a vibration. Any vibration has some sound associated with it. It might be inaudible to the human ears, but the sound remains. In real time, it is difficult to identify and classify events based on classical approaches like peak ground displacement, peak ground velocity or even the widely recognized algorithm of STA/LTA as they require extensive research to determine basic thresholding parameters so as to trigger an alarm. Many times due to human error or other unavoidable natural factors such as thunder strikes or landslides, the conventional algorithms may end up raising a false alarm. 
 
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/TimeSeriesVsSpectrogram%201.jpg?raw=true)
 
