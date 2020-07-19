@@ -25,13 +25,9 @@ The rational behind using filter banks was to separate the input signal into its
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/Filterbank64(spectral).png?raw=true)
 
 The formula for converting from frequency to Mel scale is given by:
-\begin{equation}
-    M(f) = 1125 ln(1+f/700)    
-\end{equation}
+     **M(f) = 1125 ln(1+f/700)**    
 To go back from Mels to frequency, the formula used is given by:
-\begin{equation}
-    M^{-1}(m) = 700(exp (m/1125)-1)
-\end{equation}
+     **M^{-1}(m) = 700(exp (m/1125)-1)**
 
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/mfcc_64(blues).png?raw=true)
 
