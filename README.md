@@ -20,6 +20,23 @@ The idea behind increasing the number of filters in each layer is to be more spe
 The proposed architecture for the LSTM  model has 2 LSTM layers consisting of 128 neurons each. 4 time distributed fully connected layers of 64, 32, 16 and 8 neurons respectively are added after the 2 LSTM layers with 'relu' as their activation function. Lastly a dense layer consisting of 2 neurons is added for the final 2 class classification with 'softmax' as its activation function and 'adam' as the optimizer. 
 ![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/LSTM%20Diagram.png?raw=true)
 
+## Filter Banks and Mel-Frequency Cepstral Coefficients (MFCCs)
+The rational behind using filter banks was to separate the input signal into its multiple components such that each of those components carries a single frequency sub-band of the original signal. Triangular filters, typically 26, were applied on a Mel-scale to the power spectrum of the short-time frames to extract the frequency bands.
+![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/Filterbank64(spectral).png?raw=true)
+
+The formula for converting from frequency to Mel scale is given by:
+\begin{equation}
+    M(f) = 1125 ln(1+f/700)    
+\end{equation}
+To go back from Mels to frequency, the formula used is given by:
+\begin{equation}
+    M^{-1}(m) = 700(exp (m/1125)-1)
+\end{equation}
+
+![General Overview](https://github.com/Tonumoy/MFCCNet/blob/master/Results/mfcc_64(blues).png?raw=true)
+
+MFCC is by far the most successful and mostly used feature in the area of speech processing. For speech signals, the mean and the variance changes continuously with time and thus it makes the signal non-stationary. Similarly like speech, earthquake signals are also non-stationary as each of them have different arrival of P, S and surface waves. Therefore, normal signal processing techniques like fourier transfrom, cannot be directly applied to it. But, if the signal is observed in very small duration window (say 25ms), the frequency content in that small duration appears to be more or less stationary. This opened up the possibility of short time processing of the earthquake sound signals. The small duration window is called a frame, discussed in section. For processing the whole sound segment, the window was moved from the beginning to end of the segment consistently with equal steps, called shift or stride. Based on the frame-size and frame-stride, it gave us M frames. Now, for each of the frames, MFCC coefficients were computed. Moreover, the filter bank energies computed were highly correlated since all the filterbanks were overlapping. This becomes a problem for most of the machine learning algorithms. To reduce autocorrelation between the filterbank coefficients and get a compressed representation of the filter banks, a Discrete Cosine Transform (DCT) was applied to the filterbank energies. This also allowed the  use of diagonal covariance matrices to model the features for training. Also, 13 of the 26 DCT coefficients were kept and the rest were discarded due to the fact that fast changes in the filterbank energies are represented by higher DCT coefficients. These fast changes resulted in degrading the model performances. Thus a small improvement was observed by dropping them.
+
 
 ## Results
 The CNN and the LSTM models performed almost similarly for 200Hz audio data set, but significant improvements in the train-test accuracy percentages is observed for 1000Hz data set. For 1000 Hz audio data set the CNN model showed a testing accuracy of 91.102\% for 0.2 second sample window length while the LSTM model showed 93.999\% for the same. This observation can be backed by the fact that LSTMs performs better for sequential or time series data classifications. 
