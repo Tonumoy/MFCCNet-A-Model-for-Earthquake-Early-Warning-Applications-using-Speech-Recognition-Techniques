@@ -1,0 +1,105 @@
+<<<<<<< HEAD
+fname,label
+1.SAC.wav,Earthquake Sound
+2.SAC.wav,Earthquake Sound
+3.SAC.wav,Earthquake Sound
+4.SAC.wav,Earthquake Sound
+5.SAC.wav,Earthquake Sound
+6.SAC.wav,Earthquake Sound
+7.SAC.wav,Earthquake Sound
+8.SAC.wav,Earthquake Sound
+9.SAC.wav,Earthquake Sound
+TZP_vt.txtMag 3.wav,Earthquake Sound
+TZP_vt.txtMag 4.wav,Earthquake Sound
+UDH.txtMag 5.wav,Earthquake Sound
+UDH_vt.txtMag 6.wav,Earthquake Sound
+UTK_vt.txtMag 3.wav,Earthquake Sound
+UTK_vt.txtMag 4.wav,Earthquake Sound
+VCD.txtMag 5.wav,Earthquake Sound
+VCD_vt.txtMag 2.wav,Earthquake Sound
+VCD_vt.txtMag 3.wav,Earthquake Sound
+VCD2013_vt.txtMag 2.wav,Earthquake Sound
+VIKAS_vt.txtMag 3.wav,Earthquake Sound
+Local Event (1).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (1).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (30).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (30).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (31).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (31).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (32).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (32).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (33).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (33).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (34).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (34).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+2018D07.15e1900r00_0628_20180715_190000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.15e1900r00_0628_20180715_190000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.15e1900r00_0628_20180715_190000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.15e2100r00_0628_20180715_210000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.15e2100r00_0628_20180715_210000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.15e2100r00_0628_20180715_210000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.15e2300r00_0628_20180715_230000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.15e2300r00_0628_20180715_230000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.15e2300r00_0628_20180715_230000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.16e0100r00_0628_20180716_010000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.16e0100r00_0628_20180716_010000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.16e0100r00_0628_20180716_010000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.16e0300r00_0628_20180716_030000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.16e0300r00_0628_20180716_030000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.16e0300r00_0628_20180716_030000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.16e0500r00_0628_20180716_050000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.16e0500r00_0628_20180716_050000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.16e0500r00_0628_20180716_050000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+=======
+fname,label
+1.SAC.wav,Earthquake Sound
+2.SAC.wav,Earthquake Sound
+3.SAC.wav,Earthquake Sound
+4.SAC.wav,Earthquake Sound
+5.SAC.wav,Earthquake Sound
+6.SAC.wav,Earthquake Sound
+7.SAC.wav,Earthquake Sound
+8.SAC.wav,Earthquake Sound
+9.SAC.wav,Earthquake Sound
+TZP_vt.txtMag 3.wav,Earthquake Sound
+TZP_vt.txtMag 4.wav,Earthquake Sound
+UDH.txtMag 5.wav,Earthquake Sound
+UDH_vt.txtMag 6.wav,Earthquake Sound
+UTK_vt.txtMag 3.wav,Earthquake Sound
+UTK_vt.txtMag 4.wav,Earthquake Sound
+VCD.txtMag 5.wav,Earthquake Sound
+VCD_vt.txtMag 2.wav,Earthquake Sound
+VCD_vt.txtMag 3.wav,Earthquake Sound
+VCD2013_vt.txtMag 2.wav,Earthquake Sound
+VIKAS_vt.txtMag 3.wav,Earthquake Sound
+Local Event (1).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (1).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (30).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (30).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (31).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (31).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (32).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (32).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (33).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (33).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+Local Event (34).BADS__003_BADS__BH_Z_SAC.BADS__003_BADS__BH_Z_SAC.wav,Earthquake Sound
+Local Event (34).miniseed_BLGR__BH_Z_SAC.miniseed_BLGR__BH_Z_SAC.wav,Earthquake Sound
+2018D07.15e1900r00_0628_20180715_190000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.15e1900r00_0628_20180715_190000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.15e1900r00_0628_20180715_190000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.15e2100r00_0628_20180715_210000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.15e2100r00_0628_20180715_210000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.15e2100r00_0628_20180715_210000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.15e2300r00_0628_20180715_230000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.15e2300r00_0628_20180715_230000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.15e2300r00_0628_20180715_230000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.16e0100r00_0628_20180716_010000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.16e0100r00_0628_20180716_010000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.16e0100r00_0628_20180716_010000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.16e0300r00_0628_20180716_030000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.16e0300r00_0628_20180716_030000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.16e0300r00_0628_20180716_030000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+2018D07.16e0500r00_0628_20180716_050000.miniseed_BDRD__BH_E_SAC.miniseed_BDRD__BH_E_SAC.wav,Non-Earthquake Sound
+2018D07.16e0500r00_0628_20180716_050000.miniseed_BDRD__BH_N_SAC.miniseed_BDRD__BH_N_SAC.wav,Non-Earthquake Sound
+2018D07.16e0500r00_0628_20180716_050000.miniseed_BDRD__BH_Z_SAC.miniseed_BDRD__BH_Z_SAC.wav,Non-Earthquake Sound
+>>>>>>> 054d757... Initial
