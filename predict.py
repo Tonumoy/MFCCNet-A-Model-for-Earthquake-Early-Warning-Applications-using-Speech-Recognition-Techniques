@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+#Developed By: Tonumoy Mukherjee
+
+
 import pickle
 import os
 import numpy as np
@@ -70,7 +72,7 @@ df['y_pred'] = y_pred
 
 df.to_csv('predictions_time_256_200fs 0.2 sec win.csv', index = False) #prediction output
 
-=======
+
 import pickle
 import os
 import numpy as np
@@ -142,4 +144,4 @@ df['y_pred'] = y_pred
 
 df.to_csv('predictions_time_256_200fs 0.2 sec win.csv', index = False) #prediction output
 
->>>>>>> 054d757... Initial
+

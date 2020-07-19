@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+#Developed By: Tonumoy Mukherjee
+
+
 import os
 from scipy.io import wavfile
 import scipy
@@ -394,7 +396,7 @@ axs[2,4].set_title("Layer 1, Filter 5 Activation")
 
 
 #%% 
-=======
+
 import os
 from scipy.io import wavfile
 import scipy
@@ -790,5 +792,4 @@ axs[2,4].set_title("Layer 1, Filter 5 Activation")
 
 
 #%% 
->>>>>>> 054d757... Initial
 #cfg

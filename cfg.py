@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+#Developed By: Tonumoy Mukherjee
+
+
 import os
 
 class Config:
@@ -11,7 +13,7 @@ class Config:
         self.step = int(rate/10) #10 th of a second
         self.model_path = os.path.join('models', mode + '.model')
         self.p_path = os.path.join('pickles', mode + '.p')
-=======
+
 import os
 
 class Config:
@@ -24,5 +26,5 @@ class Config:
         self.step = int(rate/10) #10 th of a second
         self.model_path = os.path.join('models', mode + '.model')
         self.p_path = os.path.join('pickles', mode + '.p')
->>>>>>> 054d757... Initial
+
         

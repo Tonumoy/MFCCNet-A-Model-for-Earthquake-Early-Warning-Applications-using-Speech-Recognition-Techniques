@@ -1,4 +1,6 @@
-<<<<<<< HEAD
+#Developed By: Tonumoy Mukherjee
+
+
 import os
 from scipy.io import wavfile
 import pandas as pd
@@ -240,7 +242,7 @@ df.to_csv('predictions_time_600fs 1 sec win.csv', index = False) #prediction out
     
     
     
-=======
+
 import os
 from scipy.io import wavfile
 import pandas as pd
@@ -481,6 +483,5 @@ df.to_csv('predictions_time_600fs 1 sec win.csv', index = False) #prediction out
     
     
     
-    
->>>>>>> 054d757... Initial
+
     

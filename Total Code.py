@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+#Developed By: Tonumoy Mukherjee
 
 #%% Headers
 import os
@@ -641,7 +641,7 @@ df['y_pred'] = y_pred
 df.to_csv('predictions_time_1000fs 0.2 sec win.csv', index = False) #prediction output
 
 
-=======
+
 
 #%% Headers
 import os
@@ -1284,4 +1284,4 @@ df['y_pred'] = y_pred
 df.to_csv('predictions_time_1000fs 0.2 sec win.csv', index = False) #prediction output
 
 
->>>>>>> 054d757... Initial
+
