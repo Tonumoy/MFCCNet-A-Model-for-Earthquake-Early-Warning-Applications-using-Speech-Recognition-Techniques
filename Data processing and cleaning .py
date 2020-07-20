@@ -166,9 +166,9 @@ plot_mfccs(mfccs)
 plt.show()
 
 #Writing Clean files into folder
-if len(os.listdir('clean_train1')) == 0:
+if len(os.listdir('clean_train')) == 0:
     for f in tqdm(df.fname):
         signal,rate = librosa.load('wavfiles/'+f, sr=1000)
         mask = envelope(signal, rate, 0.02)
-        wavfile.write(filename ='clean_train1/'+f, rate=rate, data = signal[mask])
+        wavfile.write(filename ='clean_train/'+f, rate=rate, data = signal[mask])
         
