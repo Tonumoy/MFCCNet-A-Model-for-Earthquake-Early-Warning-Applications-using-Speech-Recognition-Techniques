@@ -11,8 +11,8 @@ Before training the models, proper cleaning of the audio data was done and essen
 
 ## Repository Contents
 * 4 python files (cfg, Data Processing and Cleaning, Model, Predict)
-* Train Data Folder named ' clean_train'
-* Test Data Folder named ' clean_test'
+* Train Data Folder named  'clean_train'
+* Test Data Folder named  'clean_test'
 * Folder named 'wavfiles' containing uncleaned mix of all train and test data
 * Results achived after successful code execution
 
