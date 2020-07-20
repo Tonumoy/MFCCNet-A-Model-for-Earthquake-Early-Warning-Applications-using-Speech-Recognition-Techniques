@@ -4,7 +4,7 @@
 import os
 
 class Config:
-    def __init__(self, mode='conv', nfilt=26, nfeat=13, nfft=256, rate=200):
+    def __init__(self, mode='conv', nfilt=26, nfeat=13, nfft=256, rate=1000):
         self.mode = mode
         self.nfilt= nfilt
         self.nfeat = nfeat
@@ -17,7 +17,7 @@ class Config:
 import os
 
 class Config:
-    def __init__(self, mode='conv', nfilt=26, nfeat=13, nfft=256, rate=200):
+    def __init__(self, mode='conv', nfilt=26, nfeat=13, nfft=256, rate=1000):
         self.mode = mode
         self.nfilt= nfilt
         self.nfeat = nfeat
